@@ -1,0 +1,72 @@
+.student-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.student-table td, th{
+    border:1px solid;
+    padding:10px 10px;
+    }
+    .student-table th {
+        color: red;
+    }
+    .student-table tr th:nth-child(1){
+        text-transform: capitalize;
+    }
+    .student-table tr th:nth-child(2){
+        text-transform: capitalize;
+    }
+    .student-table tr th:nth-child(3){
+        text-transform: capitalize;
+    }
+    .student-table tr th:nth-child(4){
+        text-transform: capitalize;
+    }
+    
+    /* //.markdetails */
+
+    .markdetails{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .markdetails td,th{
+        border: 1px solid;
+        padding: 10 10px;
+    }
+    .markdetails th{
+      color: lawngreen;
+      background-color: black;
+    }
+    .markdetails td:hover{
+        color: red;
+        cursor: cell;
+    }
+    .markdetails tr th:nth-child(1){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(2){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(3){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(4){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(5){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(6){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(7){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(8){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(9){
+        text-transform: capitalize;
+    }
+    .markdetails tr th:nth-child(10){
+        text-transform: capitalize;
+    }

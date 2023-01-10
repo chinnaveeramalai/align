@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="../login required/login required.css" rel="stylesheet">
+</head>
+<body>
+    <form onsubmit="handlesubmit()">
+    <label>Name</label>
+    <input type="text" id="name" placeholder="enter name" oninput="handlename()" required>
+    <p id="nameError"></p>
+    <label>age</label>
+    <input type="number" id="age" placeholder="enter your age" oninput="handleage()" required min="18" max="40">
+    <p id="ageError"></p>
+    <label>email</label>
+    <input type="text" id="email" placeholder="enter email" oninput="handleEmail()" required minlength="15">
+    <p id="emailError"></p>
+    <label>password</label>
+    <input type="text" id="password" placeholder="password" oninput="handlepassword()" required minlength="5" maxlength="10">
+    <p id="pwdError"></p>    
+    <button type="submit">login</button>
+</form>
+</body>
+<script src="../login required/login required.js"></script>
+</html>

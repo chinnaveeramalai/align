@@ -1,0 +1,37 @@
+h1{
+    display: block;
+    margin:10px 20px ;
+    text-shadow: 3px 3px tomato;
+}
+
+form{
+    width: 15rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    border-radius: 30px;
+    border-style: dotted;
+    box-shadow:  0 15px 35px crimson;
+    padding: 10px 15px;
+    margin: 5% 40% auto;
+    background: linear-gradient(to right,#3f5efb,#fc4);
+}
+form:hover{
+    background-color: red;
+    color: white;
+}
+label{
+    font-size: large;
+    
+    
+}
+img{
+    width: 140px;
+    height: 145px;
+    border-radius: 30%;
+    display: block;
+    margin-right: auto;
+    
+}

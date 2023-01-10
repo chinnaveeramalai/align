@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../../javascript/login customized validation/login customized validation.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+    <label>userName</label>
+<input type="text" id="username" placeholder="enter name" oninput="handleUsername(event)"/>
+ <small id="usernameError"></small>
+   <label>email</label>
+ <input type="text" id="email" placeholder="enter email" oninput="handleEmail()" required minlength="15">
+ <small id="emailError"></small>
+    <div>
+  <label>password</label>
+ <div style="position:relative">
+ <input type="password" id="password" placeholder="password" oninput="handlePassword()" required minlength="5" maxlength="10">
+ <small id="password"></small>
+ <span class="pwdIcon" id="open" onclick="handleIcon()">open</span>
+ <span class="pwdIcon" id="close" onclick="handleIcon()">close</span>    
+ <label>confirmpassword</label>
+    <input type="password" id="confirmpassword" placeholder="confirmpassword" oninput="handleconfirmPassword()" required minlength="5" maxlength="10">
+    <small id="confirmpwdError"></small>
+        <button type="button" onclick="handlelogin()">login</button>
+    </form>
+</body>
+<script src="../../javascript/login customized validation/login customized validation.js"></script>
+</html>

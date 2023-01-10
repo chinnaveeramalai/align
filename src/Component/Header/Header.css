@@ -1,0 +1,20 @@
+h1{
+    width: auto;
+    height: 70px;
+    background: linear-gradient(to right,#ff0,#3add,#2b3);
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin-left: 2rem;
+}

@@ -1,0 +1,12 @@
+form{
+    display: flex;
+     display: grid;
+    grid-template-columns: 15%;
+}
+form{
+    justify-content: center;
+    
+    }
+h1{
+    text-align: center;
+}
