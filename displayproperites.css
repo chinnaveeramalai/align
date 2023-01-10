@@ -1,0 +1,19 @@
+p{
+    display:inline;
+}
+.button input{
+    display: inline;
+}
+.block p{
+    display: block;
+}
+.buttons input{
+    display: block;
+}
+.veera p{
+    width: 50%;
+    display: inline-block;
+}
+mark{
+    display: none;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: not-allowed;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 700;
+}

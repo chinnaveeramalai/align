@@ -1,0 +1,11 @@
+.opacity img{
+    height: 150px;
+    width: 200px;
+    opacity: 0.2;
+    border: 10px;
+    border-radius: 15px;
+    
+}
+.opacity img:hover{
+    opacity: 1;
+}

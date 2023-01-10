@@ -1,0 +1,137 @@
+*{
+ margin: 0;
+ padding: 0;
+ padding-right: 5px;
+}
+label{
+    align-items: center;
+}
+label{
+    color:red;
+    justify-content: space-between;
+    font-weight: bold;
+}
+#fname{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    top: 20%;
+    right: 20%;
+    display: flex;
+}
+#lname{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#gender{
+    border-radius: 5px;
+    width: 200px;
+    height: 5px;
+    display: flex;
+}
+#age{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+input[type="date"]{
+    background-color: white;
+    display: flex;
+    }
+#email{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#password{
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    padding: 5px  5px;
+    display: flex;
+}
+#time{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#week{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#tel{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#month{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+#language{
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px  5px;
+    display: flex;
+}
+input[type="number"]{
+    background-color: white;
+
+}
+input[type="checkbox"]{
+    height: 25px;
+}
+body{
+    background-color: darkgray;
+}
+input[type="button"]{
+    background-color: dimgrey;
+    color: red;
+    align-items: center;
+}
+h1{
+    font-size:3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-image: url(../component/vv.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+input::placeholder{
+    background-color: gray;
+    color: blue;
+}
+.div::placeholder{
+    background-color: gray;
+    color: blue;
+} 
+
+.class{
+    padding: 20px
+}
+.chinna{
+    display: grid;
+    grid-template-columns: 20% 20% ;
+}
+#veera{
+    display: grid;
+    grid-template-columns: 20% 20%;
+}
+#mycontent{
+    display: grid;
+    grid-template-columns: 20% 20%;
+}

@@ -1,0 +1,19 @@
+p marquee::first-letter{
+    font-size: 100px;
+    color: red;
+    font-weight: bold;
+    font-stretch: narrower;
+    
+}
+h1::first-letter{
+text-decoration:underline ;
+color: #0afc;
+
+}
+h1::first-line{
+    text-shadow:0 6px 4px;
+    
+}
+h1::backdrop{
+    transform-box: 0 6px 4px;
+}

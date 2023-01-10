@@ -1,0 +1,46 @@
+.sidebar{
+position: fixed;
+left:0;
+width: 250px;
+height:100%;
+background: #042331;
+background-image: url(../../assets/vlcsnap-2020-03-28-15h02m14s762.png);
+}
+.sidebar ul li{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:blue;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    
+}
+ul li:hover{
+    padding-left:50px;
+    transition: 0.5s;
+    color: chartreuse;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    background-image: url(../../assets/vlcsnap-2020-03-28-15h06m24s288.png);
+    color: red;  
+    padding: 15px;
+    border-radius: 20px;
+}
+.photo img{
+    border-radius: 20px;
+    position: absolute;
+    right: 30%;
+}
+@media only screen and (min-width:600px){
+    .photo{
+        width: 200px;
+        height: 150px;
+    }
+}

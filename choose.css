@@ -1,0 +1,21 @@
+*{
+    color: red;
+}
+p{
+    color: blue;
+    text-align: justify;
+}
+#fname{
+    border-radius: 5px;
+    width: 200px;
+    
+}
+.mycontent{
+    color: black;
+    font-style: italic;
+    font-size: x-large;
+}
+input[type="button"]{
+    background-color: magenta;
+    color: white;
+}

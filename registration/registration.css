@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    text-shadow: 0 5px 4px red;
+    border: solid;
+    border-style: dotted;
+}
+h1:hover{
+    color: chartreuse;
+}
+form{
+ height: 0px;
+ width: 5px 5px;   
+ margin: 5% 10% auto;
+ justify-content: center;
+ text-align: justify;
+ color:blue;
+ display: flex;
+}
+table{
+    border: 5px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    display: inline-block;
+    column-gap: 30px;
+}
+input{
+ padding: 5px 10px;
+ 
+}
+textarea{
+  padding-right: 60px;
+  padding-bottom: 60px;
+ }
+select{
+ padding-right: 30px;
+ padding-bottom: 10px;
+ }
+ body{
+background-color: aquamarine;
+ }
+#myclass{
+    color: black;
+} 
+#myclass:hover{
+    color: red;
+
+}
+th:hover{
+    color: yellow;
+}
+
+
+a:visited{
+    color: chartreuse;
+}
+
+th::first-letter{
+    color: black;
+}
+input::placeholder{
+    color: red;
+}
+.veera{
+    display: grid;
+    grid-template-columns: 30% 30% ;
+    
+}

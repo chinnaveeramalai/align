@@ -1,0 +1,13 @@
+tbody tr td{
+    font-size: x-large;
+}
+tbody tr td:hover{
+    color: blue;
+}
+table tr th{
+    font-weight: bold;
+    font-size: xx-large;
+}
+body{
+    background-color: cadetblue;
+}

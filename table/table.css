@@ -1,0 +1,24 @@
+body{
+     background: linear-gradient(to right,#3f5efb,#fc4);
+     background-size: cover;
+}
+table,th,td{
+    width: 80%;
+    margin: auto;
+    border: 10px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    table-layout: fixed;
+    box-shadow: 15px 10px;
+}
+th,td{
+    padding: 25px;
+}
+table{
+    background-image: url(../../assets/vlcsnap-2020-03-30-15h27m27s941.png);
+}
+tr th{
+     color: tomato;
+     
+}
